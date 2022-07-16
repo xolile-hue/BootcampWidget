@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+}
+.widgets{
+    display: flex;
+}
+.widget2{
+    display: flex;
+
+}
+.greet{
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: blueviolet;
+}
+.bill{
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: lawngreen;
+}
+.trans{
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: lightpink;
+    
+
+}
+.expensive{
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: red;
+    
+
+}
+@media(max-width:760px){
+    .widgets{
+        display: block;
+    }
+    .widget2{
+        display: block;
+    
+    }
+
+}
+
+
